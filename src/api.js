@@ -1,5 +1,5 @@
 import axios from "axios";
-const api_key = "d1caa8e3b83dca8cce3b685d86d720f3";
+const api_key = "put here your api key";
 export async function fecthWeather(city, setError) {
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}`;
 
